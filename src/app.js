@@ -6,12 +6,14 @@ import Utils        from './services/utils.js'
 import Home         from './views/pages/home.js'
 import TaskItem     from './views/pages/taskItem.js'
 import Error404     from './views/pages/error404.js'
+import Signup       from './views/pages/signup.js'
 
 
 // List of supported routes. Any url other than these routes will throw a 404 error
 const routes = {
     '/'             : Home
     , '/task/:id'   : TaskItem
+    , '/signup'     : Signup
 };
 
 

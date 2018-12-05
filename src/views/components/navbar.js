@@ -13,9 +13,11 @@ let Navbar = {
                             <a class="navbar-item" href="/#/">
                                 Home
                             </a>
+                            <br>
                             <a class="navbar-item" href="/#/forbidden">
                                 Forbidden
                             </a>
+                            <br>
                         </div>
                         <div class="">
                             <div class="">
@@ -23,6 +25,7 @@ let Navbar = {
                                     <a class="" href="/#/signup">
                                         <strong>Sign up</strong>
                                     </a>
+                                    <br>
                                     <a class="button">
                                         Log in
                                     </a>
